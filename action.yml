@@ -12,6 +12,9 @@ runs:
   using: 'composite'
   steps:
     - run: echo "Hello, ${{ inputs.who-to-greet }}!"
+      shell: bash
       id: greet
     - run: echo "::set-output name=greeting-message::Hello, ${{ inputs.who-to-greet }}!"
+      shell: bash
       id: set_output
+
