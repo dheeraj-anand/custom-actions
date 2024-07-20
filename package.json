@@ -1,9 +1,9 @@
 {
-    "name": "hello-world-action",
-    "version": "1.0.0",
-    "description": "An action that prints a greeting message",
-    "main": "index.js",
-    "dependencies": {
-      "@actions/core": "^1.2.6"
-    }
+  "name": "hello-world-action",
+  "version": "1.0.0",
+  "description": "An action that prints a greeting message",
+  "main": "index.js",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
   }
+}
