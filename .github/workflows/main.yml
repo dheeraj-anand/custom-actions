@@ -13,6 +13,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Run Hello World Action
-        uses: .github/dheeraj-anand/custom-actions@v5
+        uses: dheeraj-anand/custom-actions@v5
         with:
           who-to-greet: 'Dheeraj'
